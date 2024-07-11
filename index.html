@@ -1,0 +1,146 @@
+<!--SalmandaScript-->
+<!DOCTYPE html>
+<html lang="en" manifest="https://salmandascript.github.io/MovieChannel"/>
+<head>
+<title>Salmanda video</title>
+ <meta charset="UTF-8" />
+ 
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	 
+	 <link rel="stylesheet" href="jquery-ui.min.css" type="text/css"/>
+
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
+
+<link rel="stylesheet" href="movieChannel.css" type="text/css"/>
+
+<meta name="theme-color" content="teal"/>
+
+           <!--css-->
+<style type="text/css" media="all">
+body{
+background: linear-gradient(to right, teal, maroon);
+border:2px groove;
+padding:4px;
+border-color:orange;
+border-radius: 6pt;
+text-shadow: orange 2px 2px 2px; 
+margin-top: 5pt;
+color: teal;
+}
+
+a:link{
+color:teal
+}
+
+a:visited{
+color:navy
+}
+
+a:hover{
+color:green
+}
+
+a:active{
+color:red
+}
+
+a{
+color: white;
+}
+
+h5 {
+text-align: center;
+}
+</style>
+</head>
+
+<body onload="welcome();" style="margin-top: 60">
+ <script type="text/javascript">
+document.write("<h5>"+Date()+"</h5>");
+  </script>
+
+<div align="center"><b><img style="width: 40pt" src="movieChannel.png"/>&nbsp;<span>Africa Online Movie Channel</span></b><br> &nbsp;
+
+<div class="tv">
+<div style="background-color:gray; border-radius: 2pt"> 
+<p align="center"><b>Streaming Movies and TV Programmes</b></p></div><br>
+
+<!--<div align="center"><video id="myVideo" width="100%" height="auto" src="gatesOfDarkness.mp4" poster="Screenshot1.jpg" controls autoplay></video><br><br>
+</div>-->
+  	
+  	<!-- simple embedding that removes the iframe's border -->
+<iframe width="100%" height="300"
+   src="https://youtube.com/embed/_-pkdvqq_m4?si=lK0hyaAYK_bVGaXb autoplay=1 HD=1 loop=4"
+   frameborder="0"></iframe> 
+ 
+<div align="center" style="background-color:gray; border-radius: 4pt">
+<marquee style="color:teal"><b>Full Videos Follow Youtube Channel Link</b></marquee></div><br><hr></div><br><br>
+
+<!--popup menu-->
+<div class="btn-group dropup"> 
+<div class="btn-group"> 
+<button onclick="salmandaii()" id="demoii" style="border: groove white 2pt; background: orange"
+ type="button" data-toggle="dropdown" class="btn btn-warning dropdown-toggle btn-sm">📒 Menu</button> 
+ 
+<ul class="dropdown-menu royal2"> 
+<center><li><button onclick="newsChannel(); salmanda3()" id="demo3" style="border-color: white" type="button" class="btn btn-secondary btn-sm">📰 News Channel</button>
+	
+	<!--<li class="divider"></li>
+	<li><button onclick="salmanda4()" id="demo4" style="border-color: white" type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal5"
+>🐒 Tourism</button></li>-->
+
+<!--<a href="file:///storage/emulated/0/salmanda/onlineRadio/musicStore/musicStore.html">-->
+	
+	<!--<button onclick="salmanda5()" id="demo5"
+	 style="border-color: white" type="button" class="btn btn-secondary btn-sm"
+	 onclick="alert('This Site is still under development.');">📚 Education</button> </a></li>-->
+
+<li class="divider"></li> 
+<li><button onclick="programming(); salmanda6()" id="demo6" style="border-color: white" type="button" class="btn btn-secondary btn-sm">📟 Programming</button></li>
+
+<li class="divider"></li> 
+<li><button onclick="linkWikipedia(); salmanda7()" id="demo7" style="border-color: white" type="button" class="btn btn-secondary btn-sm"> <img style=" width: 14pt" 
+src="wikipeadia.png"/>
+Wikipeadia</button></li>
+
+<li class="divider"></li> 
+<li><button onclick="salmandaMusiq(); salmanda8()" id="demo8" style="border-color: white" type="button" class="btn btn-secondary btn-sm">🎼 My Music</button></li>
+
+<!--<li class="divider"></li> 
+<li><button onclick="linkChatGPT(); salmanda9()" id="demo9" style="border-color: white" type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal6"><img style=" width: 15pt" src="chatGPT.png"/> ChatGPT</button></li>-->
+
+<li class="divider"></li> 
+<li><button onclick="royalFM(); salmanda11()" id="demo11" style="border-color: white" type="button" class="btn btn-secondary btn-sm"><img style="width: 16pt" src="Royal.png"/> RoyalFM</button></li>
+
+<li class="divider"></li> 
+<li><button onclick="seer(); salmanda12()" id="demo12" style="border-color: white" type="button" class="btn btn-secondary btn-sm"><img style=" width: 16pt" src="Eye.png"/> Seer</button></li>
+</center>
+
+<!--dialog function-->
+	<div class="ui" id = "dialog-7" title = "Welcome to the Channel.">This channel is for Streaming classic, movies and Tv programmes, you may as well find programming tutorials on HTML, CSS and Javascript. it is all here,again welcome and enjoy.</div>
+	<!--end dialog function-->
+</ul> 
+</div> 
+</div> 
+<!--End popup menu-->
+
+<button onclick="africaOnline(); salmanda1()" id="demo1" style="border: groove white 2pt; margin: 2pt"
+ type="button" class="btn btn-secondary btn-sm">🏠 Back Home</button>
+ 
+<a href="https://www.youtube.com/invasion.mp4" download="Invasion.mp4">
+<button onclick="salmanda2();" id="demo2" style="border: groove white 2pt; margin: 2pt"
+ type="button" class="btn btn-secondary btn-sm">🎬 Download Video</button></a> <br><br>
+ 
+ 
+<footer style="color:orange">&copy Copyright 2024 | Rights Reserved | SM Technology</footer>
+
+<script src="jquery.min.js" defer></script>
+
+<script src="jquery-ui.min.js" defer></script>
+
+<script src="bootstrap.min.js"defer></script>
+
+<script src="movieChannel.js"defer></script>
+</body>
+</html>
+                  <!--The End-->
